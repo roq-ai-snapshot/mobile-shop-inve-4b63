@@ -1,0 +1,1702 @@
+[
+  {
+    "billing": [
+      {
+        "id": "cbb84850-d903-4dbe-aabc-0698c0679302",
+        "created_at": "2023-08-03T13:56:12.106Z",
+        "updated_at": "2023-08-03T16:08:34.926Z",
+        "invoice_amount": 53598,
+        "sales_summary": "Monthly Sales",
+        "notes": "Important Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "eaeefd08-8578-4631-8b47-15b535ec6e8d",
+        "created_at": "2023-08-03T15:10:59.006Z",
+        "updated_at": "2023-08-04T00:57:03.030Z",
+        "invoice_amount": 96952,
+        "sales_summary": "Quarterly Sales",
+        "notes": "Meeting Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "1c1616cd-d425-4d82-b5d1-a493ce594aa4",
+        "created_at": "2023-08-03T19:15:00.725Z",
+        "updated_at": "2023-08-03T21:28:41.983Z",
+        "invoice_amount": 55019,
+        "sales_summary": "Yearly Sales",
+        "notes": "Action Items",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "c5de2e8a-6d5c-4ab6-ad04-0bfd9ff6a2f6",
+        "created_at": "2023-08-04T00:07:37.862Z",
+        "updated_at": "2023-08-04T03:27:40.830Z",
+        "invoice_amount": 85554,
+        "sales_summary": "Product Sales",
+        "notes": "Project Updates",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "1f86a168-fdb0-40ba-b2e9-5fab8bbed2c0",
+        "created_at": "2023-08-03T11:14:23.708Z",
+        "updated_at": "2023-08-03T22:41:07.428Z",
+        "invoice_amount": 21494,
+        "sales_summary": "Region Sales",
+        "notes": "Client Feedback",
+        "undefined": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "38fbc4cb-38ef-4f7c-841f-9d45f6e2b147",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-04T05:10:15.024Z",
+        "updated_at": "2023-08-03T17:38:47.896Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "655741d2-5251-45e8-9c48-7294e483985e",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-03T09:37:32.205Z",
+        "updated_at": "2023-08-04T05:03:33.748Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "272f0911-2e83-467d-a4e1-34f1a843091d",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-04T02:41:56.744Z",
+        "updated_at": "2023-08-03T21:52:49.746Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fc4bf165-9efb-4dd1-bae6-578831750b56",
+        "device_name": "Desktop Computer",
+        "status": "Out of Stock",
+        "created_at": "2023-08-03T18:12:43.679Z",
+        "updated_at": "2023-08-03T18:24:35.085Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d4e423d8-0328-4662-9ca8-5d98047b32fa",
+        "device_name": "Smartwatch",
+        "status": "Damaged",
+        "created_at": "2023-08-03T17:02:03.338Z",
+        "updated_at": "2023-08-03T14:22:06.651Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "850f1fef-cd87-4ae6-92f3-c7e8ed5e9732",
+        "created_at": "2023-08-03T20:08:21.753Z",
+        "updated_at": "2023-08-04T02:20:31.133Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "272f0911-2e83-467d-a4e1-34f1a843091d",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "6e4f532c-6350-4ae0-9fce-2d1917480666",
+        "created_at": "2023-08-04T06:40:56.720Z",
+        "updated_at": "2023-08-03T23:44:03.523Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "272f0911-2e83-467d-a4e1-34f1a843091d",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "c2b862b2-0025-4907-89fa-1be0612a539e",
+        "created_at": "2023-08-04T08:17:28.644Z",
+        "updated_at": "2023-08-03T20:11:53.068Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "38fbc4cb-38ef-4f7c-841f-9d45f6e2b147",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "3595e7a8-4e02-447f-b6d5-b13044afcaaa",
+        "created_at": "2023-08-03T12:25:00.338Z",
+        "updated_at": "2023-08-04T04:26:06.169Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "655741d2-5251-45e8-9c48-7294e483985e",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "0140ce0a-52a9-4981-80c2-dcb85e347371",
+        "created_at": "2023-08-04T04:12:51.822Z",
+        "updated_at": "2023-08-03T13:42:50.735Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "38fbc4cb-38ef-4f7c-841f-9d45f6e2b147",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "a3f2409c-fb6c-4584-bbe8-d80ac42b9399",
+        "created_at": "2023-08-03T08:37:59.993Z",
+        "updated_at": "2023-08-04T05:32:07.216Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "655741d2-5251-45e8-9c48-7294e483985e"
+      },
+      {
+        "id": "3273b085-e8e3-4fe3-9103-ed70caa849b0",
+        "created_at": "2023-08-03T14:08:24.793Z",
+        "updated_at": "2023-08-04T06:07:58.322Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "655741d2-5251-45e8-9c48-7294e483985e"
+      },
+      {
+        "id": "4bfa6514-2100-4175-a7d3-10d193346255",
+        "created_at": "2023-08-03T20:00:57.184Z",
+        "updated_at": "2023-08-03T21:04:35.716Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "d4e423d8-0328-4662-9ca8-5d98047b32fa"
+      },
+      {
+        "id": "357f57c8-a7aa-4db3-9103-57458ce3fcb9",
+        "created_at": "2023-08-03T13:54:57.631Z",
+        "updated_at": "2023-08-03T23:02:08.793Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "655741d2-5251-45e8-9c48-7294e483985e"
+      },
+      {
+        "id": "d22092d6-ce22-414b-af2e-50a877ed13c5",
+        "created_at": "2023-08-03T11:44:24.417Z",
+        "updated_at": "2023-08-03T14:55:59.636Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "655741d2-5251-45e8-9c48-7294e483985e"
+      }
+    ]
+  },
+  {
+    "billing": [
+      {
+        "id": "08c28c59-1283-460f-b482-f73f6a9df3bf",
+        "created_at": "2023-08-03T23:41:51.066Z",
+        "updated_at": "2023-08-03T16:01:30.654Z",
+        "invoice_amount": 48864,
+        "sales_summary": "Monthly Sales",
+        "notes": "Important Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "5ce325e4-2305-4989-b09c-7745849572b5",
+        "created_at": "2023-08-04T04:44:55.188Z",
+        "updated_at": "2023-08-04T03:57:06.770Z",
+        "invoice_amount": 54072,
+        "sales_summary": "Quarterly Sales",
+        "notes": "Meeting Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "e6fbf6d0-ef4c-4f0a-a2bc-21fcdec9cd3b",
+        "created_at": "2023-08-04T07:36:43.501Z",
+        "updated_at": "2023-08-04T04:26:55.995Z",
+        "invoice_amount": 77281,
+        "sales_summary": "Yearly Sales",
+        "notes": "Action Items",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "e448c32e-229e-46f4-ac66-403b19d59544",
+        "created_at": "2023-08-04T07:43:52.746Z",
+        "updated_at": "2023-08-04T00:10:48.450Z",
+        "invoice_amount": 43099,
+        "sales_summary": "Product Sales",
+        "notes": "Project Updates",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "d13c3252-8127-46f0-84c9-807abb26166f",
+        "created_at": "2023-08-03T11:02:45.242Z",
+        "updated_at": "2023-08-03T09:11:45.258Z",
+        "invoice_amount": 26627,
+        "sales_summary": "Region Sales",
+        "notes": "Client Feedback",
+        "undefined": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "b94adefa-5c1c-4bc2-96c9-06819c16d2c3",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-03T14:12:52.147Z",
+        "updated_at": "2023-08-04T07:18:25.325Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "46a033c0-52c0-4e63-87c1-2c9c25241a9a",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-04T06:03:50.710Z",
+        "updated_at": "2023-08-03T23:32:20.419Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c3b6fc81-3f32-4b5d-af9c-5006f58dabe1",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-04T03:55:46.535Z",
+        "updated_at": "2023-08-03T22:46:56.099Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5e81d245-4788-4d92-b4a5-a17c4c76fc69",
+        "device_name": "Desktop Computer",
+        "status": "Out of Stock",
+        "created_at": "2023-08-03T19:16:58.364Z",
+        "updated_at": "2023-08-03T08:26:31.975Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "09bc0b07-59ba-4f7a-8c8e-591c3b7ca04a",
+        "device_name": "Smartwatch",
+        "status": "Damaged",
+        "created_at": "2023-08-04T05:46:17.321Z",
+        "updated_at": "2023-08-03T20:31:05.931Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "8afdb613-0c0f-454d-a153-42b6e8f5cab5",
+        "created_at": "2023-08-03T18:28:43.424Z",
+        "updated_at": "2023-08-03T13:21:58.431Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "09bc0b07-59ba-4f7a-8c8e-591c3b7ca04a",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "94cb626d-d8d0-48e7-a106-74b6fb8e9c79",
+        "created_at": "2023-08-03T14:28:25.173Z",
+        "updated_at": "2023-08-04T02:58:11.112Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "b94adefa-5c1c-4bc2-96c9-06819c16d2c3",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "14ddcd51-c2c3-4360-89ce-488369e9b4f1",
+        "created_at": "2023-08-04T06:04:12.187Z",
+        "updated_at": "2023-08-03T12:08:03.469Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "09bc0b07-59ba-4f7a-8c8e-591c3b7ca04a",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "a86cb9b5-ebe3-485b-bace-34551916f71b",
+        "created_at": "2023-08-04T08:00:04.322Z",
+        "updated_at": "2023-08-03T17:52:58.873Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "09bc0b07-59ba-4f7a-8c8e-591c3b7ca04a",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "dee6c76b-de41-4c0f-8496-5e9a59124292",
+        "created_at": "2023-08-04T04:53:12.818Z",
+        "updated_at": "2023-08-03T13:10:04.721Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "b94adefa-5c1c-4bc2-96c9-06819c16d2c3",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "31b93eca-418e-4520-a8c3-675dc42ed7f5",
+        "created_at": "2023-08-04T06:17:44.579Z",
+        "updated_at": "2023-08-03T09:37:23.590Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "5e81d245-4788-4d92-b4a5-a17c4c76fc69"
+      },
+      {
+        "id": "ba04d3bb-6aee-4a8e-ae11-f2a29ab3c365",
+        "created_at": "2023-08-03T20:10:43.010Z",
+        "updated_at": "2023-08-04T07:30:09.803Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "46a033c0-52c0-4e63-87c1-2c9c25241a9a"
+      },
+      {
+        "id": "c61d0a71-05be-4c8c-85c4-5d6ad6b53cd3",
+        "created_at": "2023-08-04T02:29:42.293Z",
+        "updated_at": "2023-08-03T21:17:38.505Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "46a033c0-52c0-4e63-87c1-2c9c25241a9a"
+      },
+      {
+        "id": "ba291996-cefb-4e85-80c4-69474e752e66",
+        "created_at": "2023-08-03T12:51:03.862Z",
+        "updated_at": "2023-08-03T13:39:04.456Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "b94adefa-5c1c-4bc2-96c9-06819c16d2c3"
+      },
+      {
+        "id": "27c6ce7d-703a-454e-bf11-eeaa6c0ba962",
+        "created_at": "2023-08-03T15:19:29.094Z",
+        "updated_at": "2023-08-04T06:28:53.737Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "09bc0b07-59ba-4f7a-8c8e-591c3b7ca04a"
+      }
+    ]
+  },
+  {
+    "billing": [
+      {
+        "id": "18de2dfc-8a24-4edd-a12c-f8468f9d8f5a",
+        "created_at": "2023-08-03T22:14:06.484Z",
+        "updated_at": "2023-08-04T05:47:11.053Z",
+        "invoice_amount": 16122,
+        "sales_summary": "Monthly Sales",
+        "notes": "Important Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "a711a29c-c4a6-4f0e-90fe-5bf35f292f7a",
+        "created_at": "2023-08-03T19:02:28.907Z",
+        "updated_at": "2023-08-03T18:36:23.023Z",
+        "invoice_amount": 78391,
+        "sales_summary": "Quarterly Sales",
+        "notes": "Meeting Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "96916b5e-9e2f-48ba-890e-f8e31765b7d3",
+        "created_at": "2023-08-03T15:22:41.856Z",
+        "updated_at": "2023-08-03T17:48:49.673Z",
+        "invoice_amount": 68164,
+        "sales_summary": "Yearly Sales",
+        "notes": "Action Items",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "5663fdf9-c469-4248-bb7d-e337620be974",
+        "created_at": "2023-08-03T14:59:38.847Z",
+        "updated_at": "2023-08-03T19:54:34.548Z",
+        "invoice_amount": 33044,
+        "sales_summary": "Product Sales",
+        "notes": "Project Updates",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "7af69b3d-3ba5-474f-ba9a-cb4ed72920ba",
+        "created_at": "2023-08-04T06:47:13.279Z",
+        "updated_at": "2023-08-03T09:08:44.842Z",
+        "invoice_amount": 75688,
+        "sales_summary": "Region Sales",
+        "notes": "Client Feedback",
+        "undefined": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "40bc9584-0e4f-4f62-84f5-88cf53877a9a",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-04T03:57:47.719Z",
+        "updated_at": "2023-08-03T18:23:12.542Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f866b9f6-d3fe-46f8-a0fb-e123940d66fb",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-03T20:48:31.814Z",
+        "updated_at": "2023-08-03T10:21:37.183Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5456d94a-f5cb-4b0a-89f4-ef723f2709a3",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T22:26:20.032Z",
+        "updated_at": "2023-08-03T20:24:14.522Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9ec2ef46-22a0-4355-bf89-ee43444631ab",
+        "device_name": "Desktop Computer",
+        "status": "Out of Stock",
+        "created_at": "2023-08-03T17:07:14.306Z",
+        "updated_at": "2023-08-03T14:40:49.929Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1f54e08b-953a-4564-aa0e-cf8d53ab3b13",
+        "device_name": "Smartwatch",
+        "status": "Damaged",
+        "created_at": "2023-08-03T11:21:38.196Z",
+        "updated_at": "2023-08-03T22:29:59.391Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "975f7925-db16-4e59-b373-10bb1a4d8889",
+        "created_at": "2023-08-04T08:15:00.182Z",
+        "updated_at": "2023-08-04T07:58:55.904Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "40bc9584-0e4f-4f62-84f5-88cf53877a9a",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "acb9c856-fca5-41a3-9073-2aeb22a8db4f",
+        "created_at": "2023-08-03T12:54:42.746Z",
+        "updated_at": "2023-08-03T11:35:21.815Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f866b9f6-d3fe-46f8-a0fb-e123940d66fb",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "2774de9d-813d-4655-988f-1e58abd196d1",
+        "created_at": "2023-08-03T11:49:03.663Z",
+        "updated_at": "2023-08-03T21:49:45.664Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "1f54e08b-953a-4564-aa0e-cf8d53ab3b13",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "b24f5bf2-ba3e-479e-b158-98620d17df73",
+        "created_at": "2023-08-03T20:14:42.998Z",
+        "updated_at": "2023-08-03T11:25:16.435Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "5456d94a-f5cb-4b0a-89f4-ef723f2709a3",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "cb53cdbb-dbdd-4c20-9faa-1ddb750692f8",
+        "created_at": "2023-08-03T20:25:18.452Z",
+        "updated_at": "2023-08-03T14:53:08.093Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "9ec2ef46-22a0-4355-bf89-ee43444631ab",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "68f3ef17-004c-4ae6-8ddc-511832ddf104",
+        "created_at": "2023-08-03T12:55:04.856Z",
+        "updated_at": "2023-08-03T12:03:18.530Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "40bc9584-0e4f-4f62-84f5-88cf53877a9a"
+      },
+      {
+        "id": "7974eb11-e1c8-438c-a3d6-95ffbbc75e13",
+        "created_at": "2023-08-03T08:37:59.165Z",
+        "updated_at": "2023-08-03T21:55:42.266Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "1f54e08b-953a-4564-aa0e-cf8d53ab3b13"
+      },
+      {
+        "id": "a1639c71-2494-4fd5-8b78-9fb3d3cde1b0",
+        "created_at": "2023-08-03T16:14:02.406Z",
+        "updated_at": "2023-08-03T09:59:46.080Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "9ec2ef46-22a0-4355-bf89-ee43444631ab"
+      },
+      {
+        "id": "d10cb0d6-ae50-4314-a96f-f022df78ed2d",
+        "created_at": "2023-08-04T06:13:10.070Z",
+        "updated_at": "2023-08-03T22:26:08.541Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "5456d94a-f5cb-4b0a-89f4-ef723f2709a3"
+      },
+      {
+        "id": "6b447832-d9aa-492b-aa47-46d75e37d6c7",
+        "created_at": "2023-08-04T00:24:57.110Z",
+        "updated_at": "2023-08-03T22:44:17.787Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "9ec2ef46-22a0-4355-bf89-ee43444631ab"
+      }
+    ]
+  },
+  {
+    "billing": [
+      {
+        "id": "916ae9a3-1f19-46b5-9b8d-79593ead4412",
+        "created_at": "2023-08-03T09:30:42.965Z",
+        "updated_at": "2023-08-04T01:06:15.453Z",
+        "invoice_amount": 78633,
+        "sales_summary": "Monthly Sales",
+        "notes": "Important Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "b19f08a9-1d96-41c0-960f-012193fc9322",
+        "created_at": "2023-08-03T18:28:08.674Z",
+        "updated_at": "2023-08-03T21:35:05.529Z",
+        "invoice_amount": 90257,
+        "sales_summary": "Quarterly Sales",
+        "notes": "Meeting Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "adcb8996-841b-4ffc-8cf8-4bf6ce7a75ab",
+        "created_at": "2023-08-04T03:14:24.080Z",
+        "updated_at": "2023-08-04T00:46:24.796Z",
+        "invoice_amount": 62132,
+        "sales_summary": "Yearly Sales",
+        "notes": "Action Items",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "e7ff3eba-f328-47a7-acca-8d2b599ae398",
+        "created_at": "2023-08-03T18:55:55.306Z",
+        "updated_at": "2023-08-03T09:02:50.647Z",
+        "invoice_amount": 56210,
+        "sales_summary": "Product Sales",
+        "notes": "Project Updates",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "935f1806-3337-4e73-bc29-bd64ca77a58b",
+        "created_at": "2023-08-03T23:02:29.346Z",
+        "updated_at": "2023-08-03T15:10:49.182Z",
+        "invoice_amount": 2938,
+        "sales_summary": "Region Sales",
+        "notes": "Client Feedback",
+        "undefined": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "e4f2cb30-c7e7-43c6-bdba-d92fe79a399f",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-03T17:53:26.079Z",
+        "updated_at": "2023-08-04T01:27:44.042Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "081b8fc4-6bef-49ce-a426-323c18b945e8",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-04T03:03:05.420Z",
+        "updated_at": "2023-08-03T22:11:58.146Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5eb8735a-099c-4b83-82ed-259c5227412e",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-04T00:43:40.946Z",
+        "updated_at": "2023-08-03T08:25:38.155Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "02867d77-2157-4e89-b532-674ff1dbcf7b",
+        "device_name": "Desktop Computer",
+        "status": "Out of Stock",
+        "created_at": "2023-08-03T12:22:49.600Z",
+        "updated_at": "2023-08-04T02:17:07.813Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "65daa606-9c42-403d-8c75-6a9c6d91486b",
+        "device_name": "Smartwatch",
+        "status": "Damaged",
+        "created_at": "2023-08-04T01:33:13.895Z",
+        "updated_at": "2023-08-03T20:43:31.035Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "be19f504-9b6a-4434-b9c1-8dc8dc156b58",
+        "created_at": "2023-08-03T18:42:08.371Z",
+        "updated_at": "2023-08-03T21:43:19.622Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "5eb8735a-099c-4b83-82ed-259c5227412e",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "10dc4109-f57f-4c42-9994-1c66bfb6121a",
+        "created_at": "2023-08-03T14:47:35.400Z",
+        "updated_at": "2023-08-03T14:26:01.217Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "65daa606-9c42-403d-8c75-6a9c6d91486b",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "a3b512d3-8ffb-42be-b41b-4ef5db2b027f",
+        "created_at": "2023-08-04T04:00:07.927Z",
+        "updated_at": "2023-08-03T21:56:25.347Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "e4f2cb30-c7e7-43c6-bdba-d92fe79a399f",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "b2ac6aa9-a084-4ffc-a242-b2bf05db9067",
+        "created_at": "2023-08-04T04:03:08.862Z",
+        "updated_at": "2023-08-04T07:47:08.023Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "02867d77-2157-4e89-b532-674ff1dbcf7b",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "63ab3288-4372-402e-8d4b-d17964eedf14",
+        "created_at": "2023-08-04T01:16:16.564Z",
+        "updated_at": "2023-08-03T17:59:19.334Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "081b8fc4-6bef-49ce-a426-323c18b945e8",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "1fdf0958-599e-46f5-8c36-aca4ece36440",
+        "created_at": "2023-08-03T16:40:04.543Z",
+        "updated_at": "2023-08-03T19:03:20.854Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "5eb8735a-099c-4b83-82ed-259c5227412e"
+      },
+      {
+        "id": "889e4fb0-71cd-40f9-92e1-4ddbe3a14418",
+        "created_at": "2023-08-03T13:54:21.059Z",
+        "updated_at": "2023-08-04T04:36:27.294Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "65daa606-9c42-403d-8c75-6a9c6d91486b"
+      },
+      {
+        "id": "954789a4-ff5a-48ff-a66d-3904f3cb8499",
+        "created_at": "2023-08-04T07:05:51.673Z",
+        "updated_at": "2023-08-04T08:16:07.696Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "5eb8735a-099c-4b83-82ed-259c5227412e"
+      },
+      {
+        "id": "c4428af6-ab45-46c0-a41b-2b958b6d381f",
+        "created_at": "2023-08-03T08:32:58.787Z",
+        "updated_at": "2023-08-04T00:52:44.783Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "65daa606-9c42-403d-8c75-6a9c6d91486b"
+      },
+      {
+        "id": "85a08a17-2118-4b10-b8e1-decce6859401",
+        "created_at": "2023-08-03T19:13:12.201Z",
+        "updated_at": "2023-08-03T12:08:49.921Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "02867d77-2157-4e89-b532-674ff1dbcf7b"
+      }
+    ]
+  },
+  {
+    "billing": [
+      {
+        "id": "c1260d76-44fb-47ca-8651-33e04e1cec83",
+        "created_at": "2023-08-03T19:28:07.121Z",
+        "updated_at": "2023-08-03T22:26:08.092Z",
+        "invoice_amount": 60650,
+        "sales_summary": "Monthly Sales",
+        "notes": "Important Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "69936e76-f449-4ca6-bddd-aacf604752aa",
+        "created_at": "2023-08-03T13:49:01.811Z",
+        "updated_at": "2023-08-04T05:48:15.381Z",
+        "invoice_amount": 20378,
+        "sales_summary": "Quarterly Sales",
+        "notes": "Meeting Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "0dc81f52-9eeb-4a3a-95cc-bf7012afb6da",
+        "created_at": "2023-08-03T16:20:14.274Z",
+        "updated_at": "2023-08-03T16:18:10.375Z",
+        "invoice_amount": 24380,
+        "sales_summary": "Yearly Sales",
+        "notes": "Action Items",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "dc3f592e-8359-4832-bae0-526f47f80c1a",
+        "created_at": "2023-08-03T16:01:08.198Z",
+        "updated_at": "2023-08-04T04:28:28.502Z",
+        "invoice_amount": 10560,
+        "sales_summary": "Product Sales",
+        "notes": "Project Updates",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "ddcb0418-ed0d-484b-b619-6ded8a97d80d",
+        "created_at": "2023-08-04T01:29:43.551Z",
+        "updated_at": "2023-08-03T19:17:28.790Z",
+        "invoice_amount": 11800,
+        "sales_summary": "Region Sales",
+        "notes": "Client Feedback",
+        "undefined": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "53ef3e60-9e49-4e00-abae-894b45c4df6e",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-03T22:38:01.210Z",
+        "updated_at": "2023-08-03T15:05:51.640Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "53f36fd0-cec4-403c-9972-955be4f3ed4b",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-03T14:15:12.044Z",
+        "updated_at": "2023-08-03T22:42:38.589Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4698e116-7e6c-4d82-bd6f-40f6d01b6347",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T21:21:28.853Z",
+        "updated_at": "2023-08-03T21:39:25.952Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "11de5ed4-1111-47e4-ab1e-79d8bcd30159",
+        "device_name": "Desktop Computer",
+        "status": "Out of Stock",
+        "created_at": "2023-08-03T19:47:27.544Z",
+        "updated_at": "2023-08-03T19:05:33.270Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6b04decc-a2b5-4a9a-a1b4-6f692df67ed9",
+        "device_name": "Smartwatch",
+        "status": "Damaged",
+        "created_at": "2023-08-03T15:35:14.280Z",
+        "updated_at": "2023-08-03T15:59:47.500Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "8f692a27-7195-4465-8047-347af7254e4a",
+        "created_at": "2023-08-04T08:12:53.421Z",
+        "updated_at": "2023-08-03T08:34:42.564Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "6b04decc-a2b5-4a9a-a1b4-6f692df67ed9",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "5f39b3f2-20b4-480f-a486-e485c8b1f2f2",
+        "created_at": "2023-08-03T12:45:28.060Z",
+        "updated_at": "2023-08-03T17:26:25.005Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "53f36fd0-cec4-403c-9972-955be4f3ed4b",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "10306cfd-db50-4520-b22e-6e294455196c",
+        "created_at": "2023-08-03T08:46:47.615Z",
+        "updated_at": "2023-08-03T22:12:05.323Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "53f36fd0-cec4-403c-9972-955be4f3ed4b",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "fc0462f7-c39b-4d54-a73f-fece477b56f6",
+        "created_at": "2023-08-04T01:53:13.988Z",
+        "updated_at": "2023-08-03T19:31:43.706Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "53ef3e60-9e49-4e00-abae-894b45c4df6e",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "b04fec6b-33a1-4355-9fe3-1edd73e2fc2d",
+        "created_at": "2023-08-03T10:13:56.550Z",
+        "updated_at": "2023-08-03T09:29:35.334Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "11de5ed4-1111-47e4-ab1e-79d8bcd30159",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "65af8891-ec54-45e1-b278-ccec4259c596",
+        "created_at": "2023-08-03T12:16:02.378Z",
+        "updated_at": "2023-08-04T01:01:47.387Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "4698e116-7e6c-4d82-bd6f-40f6d01b6347"
+      },
+      {
+        "id": "24936c0d-88af-46d0-b2bf-444f1abfb44c",
+        "created_at": "2023-08-03T10:06:24.183Z",
+        "updated_at": "2023-08-03T22:45:56.367Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "53ef3e60-9e49-4e00-abae-894b45c4df6e"
+      },
+      {
+        "id": "9f5603e1-ffa7-40e0-996b-6019572f8783",
+        "created_at": "2023-08-03T19:56:13.076Z",
+        "updated_at": "2023-08-03T16:17:01.049Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "11de5ed4-1111-47e4-ab1e-79d8bcd30159"
+      },
+      {
+        "id": "69e5d673-8f8e-4554-b021-4dbdd1681790",
+        "created_at": "2023-08-03T19:36:50.137Z",
+        "updated_at": "2023-08-03T20:56:05.301Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "53f36fd0-cec4-403c-9972-955be4f3ed4b"
+      },
+      {
+        "id": "8c90d6f3-f165-48b5-8909-ff3111dc9e4a",
+        "created_at": "2023-08-03T16:33:47.416Z",
+        "updated_at": "2023-08-03T12:13:50.873Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "53ef3e60-9e49-4e00-abae-894b45c4df6e"
+      }
+    ]
+  },
+  {
+    "billing": [
+      {
+        "id": "b90f2a4c-0fc8-4d6f-b83b-704f3a02eb92",
+        "created_at": "2023-08-03T20:23:58.026Z",
+        "updated_at": "2023-08-03T21:11:09.291Z",
+        "invoice_amount": 26655,
+        "sales_summary": "Monthly Sales",
+        "notes": "Important Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "273bd9f8-d699-4aa4-96b8-4bd81ad04ea3",
+        "created_at": "2023-08-04T06:07:19.596Z",
+        "updated_at": "2023-08-04T02:23:52.721Z",
+        "invoice_amount": 33398,
+        "sales_summary": "Quarterly Sales",
+        "notes": "Meeting Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "ba514cb3-8719-409b-8393-0f7c53a4099b",
+        "created_at": "2023-08-04T00:04:40.681Z",
+        "updated_at": "2023-08-03T19:35:53.399Z",
+        "invoice_amount": 50341,
+        "sales_summary": "Yearly Sales",
+        "notes": "Action Items",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "344ec3f2-3d87-42b1-820e-fb99d725b4a1",
+        "created_at": "2023-08-03T22:05:13.561Z",
+        "updated_at": "2023-08-03T22:41:59.873Z",
+        "invoice_amount": 49010,
+        "sales_summary": "Product Sales",
+        "notes": "Project Updates",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "19203aa7-5039-4e34-b7cf-74dd713a1959",
+        "created_at": "2023-08-03T20:39:21.733Z",
+        "updated_at": "2023-08-03T21:34:43.936Z",
+        "invoice_amount": 5492,
+        "sales_summary": "Region Sales",
+        "notes": "Client Feedback",
+        "undefined": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "873ff19b-ce5a-47d9-89dd-44ff916c6b73",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-04T00:02:49.269Z",
+        "updated_at": "2023-08-03T11:53:00.067Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7c458b01-6fd1-467f-87c9-fd5befcfd483",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-03T22:51:02.656Z",
+        "updated_at": "2023-08-03T12:12:42.744Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cf10ccff-2537-482e-b040-958939a0e202",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-04T00:48:20.121Z",
+        "updated_at": "2023-08-03T11:44:11.911Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "89467994-7530-42a3-abc9-3693f98ea828",
+        "device_name": "Desktop Computer",
+        "status": "Out of Stock",
+        "created_at": "2023-08-04T07:24:35.815Z",
+        "updated_at": "2023-08-03T22:51:02.370Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "39d02e2d-0b85-49ce-b625-816c448fd3ec",
+        "device_name": "Smartwatch",
+        "status": "Damaged",
+        "created_at": "2023-08-03T13:12:32.356Z",
+        "updated_at": "2023-08-03T20:42:52.357Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "ea2bd923-5322-4557-a191-095c061b3d36",
+        "created_at": "2023-08-04T02:43:30.594Z",
+        "updated_at": "2023-08-03T18:02:45.602Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "cf10ccff-2537-482e-b040-958939a0e202",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "4b855bf9-0141-4b0b-810a-137699e1b863",
+        "created_at": "2023-08-04T04:34:34.349Z",
+        "updated_at": "2023-08-03T12:50:43.151Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "873ff19b-ce5a-47d9-89dd-44ff916c6b73",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "4435f374-982f-4a13-a773-741bc4336872",
+        "created_at": "2023-08-03T10:07:53.579Z",
+        "updated_at": "2023-08-04T07:34:33.517Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "89467994-7530-42a3-abc9-3693f98ea828",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "d5eab92e-5b25-479d-a623-f684a2cfa185",
+        "created_at": "2023-08-04T02:16:06.073Z",
+        "updated_at": "2023-08-03T13:49:57.803Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "39d02e2d-0b85-49ce-b625-816c448fd3ec",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "f88e55f9-a749-4c67-8060-fad0d621bc39",
+        "created_at": "2023-08-03T20:34:22.731Z",
+        "updated_at": "2023-08-04T03:51:54.770Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "873ff19b-ce5a-47d9-89dd-44ff916c6b73",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "12f4912b-f076-439d-b3d3-508a814df90a",
+        "created_at": "2023-08-04T05:02:22.940Z",
+        "updated_at": "2023-08-04T08:13:09.730Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "39d02e2d-0b85-49ce-b625-816c448fd3ec"
+      },
+      {
+        "id": "85618f6e-8bc9-41ff-99cb-288cc3e7afaf",
+        "created_at": "2023-08-04T06:11:32.019Z",
+        "updated_at": "2023-08-03T23:42:01.370Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "39d02e2d-0b85-49ce-b625-816c448fd3ec"
+      },
+      {
+        "id": "4d08677f-01df-406d-91b3-3f47f86993b3",
+        "created_at": "2023-08-04T05:46:21.458Z",
+        "updated_at": "2023-08-04T05:13:42.399Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "89467994-7530-42a3-abc9-3693f98ea828"
+      },
+      {
+        "id": "2a0dd658-c812-4f6d-ad5a-6bff0fac8635",
+        "created_at": "2023-08-04T08:21:57.397Z",
+        "updated_at": "2023-08-03T18:28:42.758Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "7c458b01-6fd1-467f-87c9-fd5befcfd483"
+      },
+      {
+        "id": "1f009ae4-b8ee-4150-95d0-64b49ee4643d",
+        "created_at": "2023-08-04T04:37:00.330Z",
+        "updated_at": "2023-08-04T00:22:39.293Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "cf10ccff-2537-482e-b040-958939a0e202"
+      }
+    ]
+  },
+  {
+    "billing": [
+      {
+        "id": "c6cd1b04-8dc4-4918-a544-94d789b6fcea",
+        "created_at": "2023-08-04T06:53:09.937Z",
+        "updated_at": "2023-08-03T12:30:40.302Z",
+        "invoice_amount": 52789,
+        "sales_summary": "Monthly Sales",
+        "notes": "Important Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "df80c71d-5c66-4eb7-bbe2-13b0f4af4973",
+        "created_at": "2023-08-03T21:52:44.955Z",
+        "updated_at": "2023-08-03T20:29:00.459Z",
+        "invoice_amount": 39574,
+        "sales_summary": "Quarterly Sales",
+        "notes": "Meeting Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "213c89f5-9d70-40fd-bf9c-4c7b3e41b556",
+        "created_at": "2023-08-04T03:26:48.021Z",
+        "updated_at": "2023-08-03T21:31:00.513Z",
+        "invoice_amount": 36704,
+        "sales_summary": "Yearly Sales",
+        "notes": "Action Items",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "0057a23b-ee6a-4e6b-9233-38870402d262",
+        "created_at": "2023-08-03T14:13:55.555Z",
+        "updated_at": "2023-08-03T10:57:40.206Z",
+        "invoice_amount": 67350,
+        "sales_summary": "Product Sales",
+        "notes": "Project Updates",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "3e54f4c9-2435-4dc6-9ed4-e6f4e4eceb2a",
+        "created_at": "2023-08-03T13:52:58.754Z",
+        "updated_at": "2023-08-04T00:35:50.074Z",
+        "invoice_amount": 29095,
+        "sales_summary": "Region Sales",
+        "notes": "Client Feedback",
+        "undefined": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "a7385597-1e03-4057-a7fe-8fae508b708a",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-04T03:18:11.554Z",
+        "updated_at": "2023-08-04T04:09:49.237Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bbeb70ad-d1f5-4b02-b731-dd47cf592be8",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-04T02:41:49.091Z",
+        "updated_at": "2023-08-04T03:25:52.103Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f3082397-772d-47ed-821a-ad1bedc48d6f",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-04T03:24:30.962Z",
+        "updated_at": "2023-08-03T19:13:23.971Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1895e2c9-1206-4ba8-8ed0-424ce47735cf",
+        "device_name": "Desktop Computer",
+        "status": "Out of Stock",
+        "created_at": "2023-08-04T02:23:26.446Z",
+        "updated_at": "2023-08-03T12:45:27.416Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3071dc95-d229-4487-b66d-fc03ca0e182b",
+        "device_name": "Smartwatch",
+        "status": "Damaged",
+        "created_at": "2023-08-04T06:31:01.035Z",
+        "updated_at": "2023-08-03T13:11:24.759Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "eaf487fd-5936-489c-869d-f008b6fce98f",
+        "created_at": "2023-08-03T18:20:13.941Z",
+        "updated_at": "2023-08-04T00:51:21.117Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "bbeb70ad-d1f5-4b02-b731-dd47cf592be8",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "7a3b0a0a-32d5-4c3d-a79d-7d27dbdbdc39",
+        "created_at": "2023-08-03T12:37:58.431Z",
+        "updated_at": "2023-08-03T19:17:48.724Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "a7385597-1e03-4057-a7fe-8fae508b708a",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "37cf5fe3-9e0a-45c8-8be7-4be6d0a626f1",
+        "created_at": "2023-08-03T13:21:05.923Z",
+        "updated_at": "2023-08-04T01:19:48.003Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f3082397-772d-47ed-821a-ad1bedc48d6f",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "dcb9c016-0850-479b-b148-5f819bc1a86c",
+        "created_at": "2023-08-03T14:17:25.081Z",
+        "updated_at": "2023-08-03T19:26:15.018Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "bbeb70ad-d1f5-4b02-b731-dd47cf592be8",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "5bede03a-fe82-4dfd-a730-edaff5079fd9",
+        "created_at": "2023-08-03T14:12:30.998Z",
+        "updated_at": "2023-08-04T05:09:14.258Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "1895e2c9-1206-4ba8-8ed0-424ce47735cf",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "75ef5dcc-fd6b-4042-8998-bf73454097eb",
+        "created_at": "2023-08-03T22:30:49.488Z",
+        "updated_at": "2023-08-04T00:59:19.889Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f3082397-772d-47ed-821a-ad1bedc48d6f"
+      },
+      {
+        "id": "f7fc990f-3c5c-46ab-b6d0-291a69f28dc3",
+        "created_at": "2023-08-04T06:25:09.549Z",
+        "updated_at": "2023-08-03T11:30:52.927Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "bbeb70ad-d1f5-4b02-b731-dd47cf592be8"
+      },
+      {
+        "id": "1c143531-5ed1-4618-8640-3a0115cac4b5",
+        "created_at": "2023-08-03T22:39:15.891Z",
+        "updated_at": "2023-08-03T22:05:25.298Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "1895e2c9-1206-4ba8-8ed0-424ce47735cf"
+      },
+      {
+        "id": "3e12bb6d-c92f-478f-8b63-532d1764a632",
+        "created_at": "2023-08-03T17:19:21.544Z",
+        "updated_at": "2023-08-03T12:58:44.832Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "1895e2c9-1206-4ba8-8ed0-424ce47735cf"
+      },
+      {
+        "id": "c0a464e7-8161-4b23-92ea-735df6e5ffbc",
+        "created_at": "2023-08-03T08:31:27.935Z",
+        "updated_at": "2023-08-03T16:14:16.135Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "1895e2c9-1206-4ba8-8ed0-424ce47735cf"
+      }
+    ]
+  },
+  {
+    "billing": [
+      {
+        "id": "16e7d0a0-7c02-425a-8ed0-2e2b09d26e29",
+        "created_at": "2023-08-04T01:32:20.940Z",
+        "updated_at": "2023-08-03T10:50:15.490Z",
+        "invoice_amount": 42698,
+        "sales_summary": "Monthly Sales",
+        "notes": "Important Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "d119ac74-0cfe-4916-a7a5-4559df484432",
+        "created_at": "2023-08-04T07:16:52.775Z",
+        "updated_at": "2023-08-03T14:53:23.771Z",
+        "invoice_amount": 49062,
+        "sales_summary": "Quarterly Sales",
+        "notes": "Meeting Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "944b1614-f796-451d-925a-a651c1e77c42",
+        "created_at": "2023-08-03T18:08:21.106Z",
+        "updated_at": "2023-08-03T08:56:05.496Z",
+        "invoice_amount": 85914,
+        "sales_summary": "Yearly Sales",
+        "notes": "Action Items",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "a34d9d74-c324-4e88-8a68-dd837fd5fafc",
+        "created_at": "2023-08-04T01:50:20.341Z",
+        "updated_at": "2023-08-03T11:28:55.157Z",
+        "invoice_amount": 27638,
+        "sales_summary": "Product Sales",
+        "notes": "Project Updates",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "b4ede40e-b209-453c-99fb-147c9cb6a9e1",
+        "created_at": "2023-08-03T11:29:59.160Z",
+        "updated_at": "2023-08-04T00:15:01.936Z",
+        "invoice_amount": 79033,
+        "sales_summary": "Region Sales",
+        "notes": "Client Feedback",
+        "undefined": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "f5ca3826-92b8-475b-9683-16c788a6510a",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-03T23:23:55.425Z",
+        "updated_at": "2023-08-04T00:34:18.075Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f82f6d38-acec-4572-8766-fb2609b8aaf2",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-03T22:43:29.580Z",
+        "updated_at": "2023-08-04T04:47:47.491Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f5b15fef-7a81-498a-b458-e10b3987f338",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-04T07:03:17.594Z",
+        "updated_at": "2023-08-03T17:19:22.627Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "14cb811d-7867-4321-ab27-fd3db7362d25",
+        "device_name": "Desktop Computer",
+        "status": "Out of Stock",
+        "created_at": "2023-08-03T17:06:39.789Z",
+        "updated_at": "2023-08-03T12:38:23.848Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "06cddf83-1379-4906-9949-0694028a9c7b",
+        "device_name": "Smartwatch",
+        "status": "Damaged",
+        "created_at": "2023-08-03T16:45:17.054Z",
+        "updated_at": "2023-08-04T05:00:40.383Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "fe9cc806-cf31-4aed-b2d1-4295501970bc",
+        "created_at": "2023-08-04T04:29:06.212Z",
+        "updated_at": "2023-08-03T17:54:28.092Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f5b15fef-7a81-498a-b458-e10b3987f338",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "90d0d67e-d4a1-41d3-8044-005f5849074e",
+        "created_at": "2023-08-03T21:43:32.351Z",
+        "updated_at": "2023-08-03T21:28:21.054Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "06cddf83-1379-4906-9949-0694028a9c7b",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "5d791434-c820-460d-9b76-7777ef537f78",
+        "created_at": "2023-08-03T23:43:51.881Z",
+        "updated_at": "2023-08-03T19:13:40.510Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f82f6d38-acec-4572-8766-fb2609b8aaf2",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "8de692a2-8f74-4fbf-b1ac-6f77118fd1f9",
+        "created_at": "2023-08-03T13:16:26.066Z",
+        "updated_at": "2023-08-04T01:31:13.587Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f5b15fef-7a81-498a-b458-e10b3987f338",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "fe09d9f1-f56f-4ac1-a1b9-82ed0e47f743",
+        "created_at": "2023-08-03T16:05:05.221Z",
+        "updated_at": "2023-08-04T06:17:43.726Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "06cddf83-1379-4906-9949-0694028a9c7b",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "648ab804-616f-4cea-8018-26c721ba5a32",
+        "created_at": "2023-08-03T11:58:30.483Z",
+        "updated_at": "2023-08-04T06:10:17.731Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "06cddf83-1379-4906-9949-0694028a9c7b"
+      },
+      {
+        "id": "c0d716a5-9c48-4fd3-afef-ad5954388c65",
+        "created_at": "2023-08-04T06:53:58.401Z",
+        "updated_at": "2023-08-03T19:09:52.414Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f82f6d38-acec-4572-8766-fb2609b8aaf2"
+      },
+      {
+        "id": "e298e226-e59a-4425-8264-d83e51962842",
+        "created_at": "2023-08-04T05:59:41.065Z",
+        "updated_at": "2023-08-03T16:20:02.411Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f5b15fef-7a81-498a-b458-e10b3987f338"
+      },
+      {
+        "id": "11a73692-6353-41d9-bfc8-a4d4c913b1d5",
+        "created_at": "2023-08-04T01:08:35.400Z",
+        "updated_at": "2023-08-03T16:55:14.510Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "06cddf83-1379-4906-9949-0694028a9c7b"
+      },
+      {
+        "id": "144ccab0-17c7-4e92-a083-146148df76b7",
+        "created_at": "2023-08-03T17:47:57.249Z",
+        "updated_at": "2023-08-04T00:03:43.593Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f5b15fef-7a81-498a-b458-e10b3987f338"
+      }
+    ]
+  },
+  {
+    "billing": [
+      {
+        "id": "5992c3fc-b07d-4915-aa49-066f32a9f601",
+        "created_at": "2023-08-03T17:54:30.090Z",
+        "updated_at": "2023-08-03T19:05:33.930Z",
+        "invoice_amount": 25254,
+        "sales_summary": "Monthly Sales",
+        "notes": "Important Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "8acc5f25-810f-4358-abd0-b67dcb9b06a4",
+        "created_at": "2023-08-03T14:08:17.642Z",
+        "updated_at": "2023-08-03T19:12:19.487Z",
+        "invoice_amount": 24827,
+        "sales_summary": "Quarterly Sales",
+        "notes": "Meeting Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "f4581a87-6305-4808-9c69-2ce93bcb67ae",
+        "created_at": "2023-08-03T09:35:46.242Z",
+        "updated_at": "2023-08-03T12:46:50.620Z",
+        "invoice_amount": 95424,
+        "sales_summary": "Yearly Sales",
+        "notes": "Action Items",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "897579f5-5452-4582-bae1-4c66de61feb1",
+        "created_at": "2023-08-03T16:18:24.993Z",
+        "updated_at": "2023-08-03T08:54:45.905Z",
+        "invoice_amount": 64180,
+        "sales_summary": "Product Sales",
+        "notes": "Project Updates",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "7056ab6a-5985-4933-bbb7-1313f0919977",
+        "created_at": "2023-08-03T21:21:46.007Z",
+        "updated_at": "2023-08-04T05:04:45.390Z",
+        "invoice_amount": 10409,
+        "sales_summary": "Region Sales",
+        "notes": "Client Feedback",
+        "undefined": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "f1265bc2-a5f1-472b-b66d-1f163c35bef2",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-03T16:54:33.936Z",
+        "updated_at": "2023-08-03T14:41:14.339Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b9a4f542-7172-4c33-bf63-80441f33e37b",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-03T19:16:33.217Z",
+        "updated_at": "2023-08-04T08:01:52.753Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "94ea7ffe-15bf-4078-a2f4-2120c517de7e",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-04T07:21:51.440Z",
+        "updated_at": "2023-08-03T13:29:56.356Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "858214f7-b9e0-46b3-ac65-fa974c976683",
+        "device_name": "Desktop Computer",
+        "status": "Out of Stock",
+        "created_at": "2023-08-03T20:07:20.192Z",
+        "updated_at": "2023-08-03T16:46:27.378Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ca920ff9-b2b8-427e-b829-0209c26c2069",
+        "device_name": "Smartwatch",
+        "status": "Damaged",
+        "created_at": "2023-08-04T05:30:09.123Z",
+        "updated_at": "2023-08-03T16:13:33.943Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "ca40d68e-2dff-4900-9eb9-65e9ae480c6f",
+        "created_at": "2023-08-03T14:34:05.472Z",
+        "updated_at": "2023-08-03T16:22:09.420Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "858214f7-b9e0-46b3-ac65-fa974c976683",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "1a40d70b-20b9-4f67-bfb3-7f1df89e2c94",
+        "created_at": "2023-08-04T00:46:55.628Z",
+        "updated_at": "2023-08-03T08:46:27.214Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "ca920ff9-b2b8-427e-b829-0209c26c2069",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "768d37e4-a687-4eea-9bfc-c9bf8afebb8e",
+        "created_at": "2023-08-03T16:20:55.209Z",
+        "updated_at": "2023-08-04T05:16:37.249Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "94ea7ffe-15bf-4078-a2f4-2120c517de7e",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "75344165-b48c-4c00-8bc8-a50fe996153d",
+        "created_at": "2023-08-03T19:34:25.578Z",
+        "updated_at": "2023-08-03T11:47:17.893Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "f1265bc2-a5f1-472b-b66d-1f163c35bef2",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "669dd2fc-dc0c-4084-b900-aa06e846777f",
+        "created_at": "2023-08-03T08:23:30.785Z",
+        "updated_at": "2023-08-03T14:28:06.006Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "ca920ff9-b2b8-427e-b829-0209c26c2069",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "a3dc3af0-77b2-4aee-9cb2-e81bf1f0bb48",
+        "created_at": "2023-08-03T21:47:55.885Z",
+        "updated_at": "2023-08-03T13:10:40.319Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "94ea7ffe-15bf-4078-a2f4-2120c517de7e"
+      },
+      {
+        "id": "b334d3c8-cf2f-4681-8620-1dd1ad81b720",
+        "created_at": "2023-08-03T22:18:46.420Z",
+        "updated_at": "2023-08-03T10:35:55.054Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "858214f7-b9e0-46b3-ac65-fa974c976683"
+      },
+      {
+        "id": "f747da68-344f-4e4a-9bf7-4fd2193e5f35",
+        "created_at": "2023-08-03T23:09:54.184Z",
+        "updated_at": "2023-08-03T09:07:49.250Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "ca920ff9-b2b8-427e-b829-0209c26c2069"
+      },
+      {
+        "id": "d0c48e69-56cf-418e-bddd-c716d09d37cd",
+        "created_at": "2023-08-03T18:37:25.080Z",
+        "updated_at": "2023-08-04T02:57:46.349Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "94ea7ffe-15bf-4078-a2f4-2120c517de7e"
+      },
+      {
+        "id": "514a7468-8607-47cf-bbd9-3dcbf3d27d27",
+        "created_at": "2023-08-03T17:59:48.154Z",
+        "updated_at": "2023-08-04T06:31:45.639Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "94ea7ffe-15bf-4078-a2f4-2120c517de7e"
+      }
+    ]
+  },
+  {
+    "billing": [
+      {
+        "id": "7542407b-e02e-4bed-8bc1-29663c81602c",
+        "created_at": "2023-08-03T21:27:25.903Z",
+        "updated_at": "2023-08-04T04:35:45.500Z",
+        "invoice_amount": 8597,
+        "sales_summary": "Monthly Sales",
+        "notes": "Important Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "7901bd0a-e98e-4921-98a3-ec18491e0865",
+        "created_at": "2023-08-03T11:06:15.082Z",
+        "updated_at": "2023-08-03T20:38:16.327Z",
+        "invoice_amount": 47601,
+        "sales_summary": "Quarterly Sales",
+        "notes": "Meeting Notes",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "d3fe264c-6749-4952-a752-619d3fa364c4",
+        "created_at": "2023-08-03T14:24:00.043Z",
+        "updated_at": "2023-08-03T14:28:30.646Z",
+        "invoice_amount": 48855,
+        "sales_summary": "Yearly Sales",
+        "notes": "Action Items",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "3854aab9-c79a-4370-af38-1b1b8651aa74",
+        "created_at": "2023-08-03T22:52:39.183Z",
+        "updated_at": "2023-08-03T15:56:48.539Z",
+        "invoice_amount": 29504,
+        "sales_summary": "Product Sales",
+        "notes": "Project Updates",
+        "undefined": "user_entity_pk"
+      },
+      {
+        "id": "043fcad8-b16a-4590-9096-ecdb36976b3b",
+        "created_at": "2023-08-03T15:44:20.072Z",
+        "updated_at": "2023-08-04T01:48:28.061Z",
+        "invoice_amount": 69940,
+        "sales_summary": "Region Sales",
+        "notes": "Client Feedback",
+        "undefined": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "b34a8cb2-cc24-4e05-8279-5e30b0e4b8d8",
+        "device_name": "Laptop",
+        "status": "Available",
+        "created_at": "2023-08-03T13:33:01.352Z",
+        "updated_at": "2023-08-03T10:35:13.893Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8af1cea2-3570-4c47-b3d4-09f5b863bae3",
+        "device_name": "Smartphone",
+        "status": "In Use",
+        "created_at": "2023-08-03T22:38:07.771Z",
+        "updated_at": "2023-08-04T03:09:11.491Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "653a8e87-041f-4c05-89c0-dd584a016771",
+        "device_name": "Tablet",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-04T04:04:04.109Z",
+        "updated_at": "2023-08-03T23:27:01.915Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6b4fddb0-84f1-4f98-8faa-c4e490cfde61",
+        "device_name": "Desktop Computer",
+        "status": "Out of Stock",
+        "created_at": "2023-08-04T06:50:54.166Z",
+        "updated_at": "2023-08-03T15:55:36.774Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fc0175a8-29be-4b1c-b2be-00de2260ff4d",
+        "device_name": "Smartwatch",
+        "status": "Damaged",
+        "created_at": "2023-08-03T20:57:20.050Z",
+        "updated_at": "2023-08-03T21:08:46.447Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "f0080d09-e9df-45f7-9d13-524faeaff272",
+        "created_at": "2023-08-03T18:44:28.415Z",
+        "updated_at": "2023-08-04T08:14:39.046Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "8af1cea2-3570-4c47-b3d4-09f5b863bae3",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "2631c0da-21da-41b7-abe9-dc99d74b9334",
+        "created_at": "2023-08-04T08:13:57.152Z",
+        "updated_at": "2023-08-03T23:22:47.158Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "8af1cea2-3570-4c47-b3d4-09f5b863bae3",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "f93a427c-68dd-4900-8bd9-b7912dc258b4",
+        "created_at": "2023-08-03T17:15:43.297Z",
+        "updated_at": "2023-08-04T01:36:55.132Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "8af1cea2-3570-4c47-b3d4-09f5b863bae3",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "f0290466-90d3-4392-b9ff-41431e0f556b",
+        "created_at": "2023-08-03T17:14:42.111Z",
+        "updated_at": "2023-08-03T15:40:55.153Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "fc0175a8-29be-4b1c-b2be-00de2260ff4d",
+        "sales_associate_id": "user_entity_pk"
+      },
+      {
+        "id": "bf72fde7-270d-4121-a33a-52acc4c9cbc2",
+        "created_at": "2023-08-04T03:05:02.597Z",
+        "updated_at": "2023-08-03T17:35:49.442Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "653a8e87-041f-4c05-89c0-dd584a016771",
+        "sales_associate_id": "user_entity_pk"
+      }
+    ],
+    "purchase_history": [
+      {
+        "id": "ea10de9e-bddb-4b54-9a41-57f2ab9cf585",
+        "created_at": "2023-08-03T13:57:13.496Z",
+        "updated_at": "2023-08-03T18:03:48.722Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "b34a8cb2-cc24-4e05-8279-5e30b0e4b8d8"
+      },
+      {
+        "id": "788919b2-56e6-4cfa-89aa-48a3e1da93e6",
+        "created_at": "2023-08-03T10:22:23.425Z",
+        "updated_at": "2023-08-04T05:31:39.669Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "6b4fddb0-84f1-4f98-8faa-c4e490cfde61"
+      },
+      {
+        "id": "1683c8c1-be88-4dbf-9aca-7237fe0c3715",
+        "created_at": "2023-08-03T13:10:47.717Z",
+        "updated_at": "2023-08-03T13:14:48.350Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "b34a8cb2-cc24-4e05-8279-5e30b0e4b8d8"
+      },
+      {
+        "id": "8485a258-d266-446d-a0ea-3415c147de74",
+        "created_at": "2023-08-04T03:12:16.482Z",
+        "updated_at": "2023-08-03T10:04:26.561Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "6b4fddb0-84f1-4f98-8faa-c4e490cfde61"
+      },
+      {
+        "id": "481528a7-9c39-42b0-92fc-36e9ed8116f7",
+        "created_at": "2023-08-04T00:34:55.981Z",
+        "updated_at": "2023-08-03T19:38:09.581Z",
+        "customer_id": "user_entity_pk",
+        "device_id": "8af1cea2-3570-4c47-b3d4-09f5b863bae3"
+      }
+    ]
+  }
+]
